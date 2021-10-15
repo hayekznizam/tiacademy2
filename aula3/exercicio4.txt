@@ -1,0 +1,3 @@
+Exerc.4
+1 O que são as variáveis em uma linguagem de programação?
+2 Dê um exemplo de um tipo de dado e o que este tipo irá representar.
