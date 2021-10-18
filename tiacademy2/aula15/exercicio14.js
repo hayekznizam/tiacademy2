@@ -16,5 +16,7 @@ window.onload = function () {
       }
     }
   }
-  tabuada(3);
+  
+
+  
 };
