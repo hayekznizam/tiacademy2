@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="Cep.js"></script>
+  <title>Desafio Cep</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="TituloPrincipal">ME ACHA!</h1>
+    <h5 class="Subtitulo">ENCONTRE UM ENDEREÇO PELO NÚMERO DO CEP</h5>
+    <span class="material-icons iconebr">
+      travel_explore
+    </span>
+  </header>
+  <main>
+    <div>
+      <section>
+        <form>
+          <fieldset>
+            <label for="NumeroCep">CEP</label>
+            <input type="text" class="txt" id="NumeroCep" name="Cep">
+            <label for="logradouro">RUA</label>
+            <input type="text" class="txt" id="logradouro" name="logradouro">
+            <label for="bairro">BAIRRO</label>
+            <input type="text" class="txt" id="bairro" name="bairro" value="">
+            <label for="cidade">CIDADE</label>
+            <input type="text" class="txt" id="localidade" name="localidade" value="">
+            <label for="estado">ESTADO</label>
+            <input type="text" class="txt" id="uf" name="uf" value="">
+            <input id="botao" type="button" name="EnviarDados" value="BUSCAR">
+          </fieldset>
+        </form>
+      </section>
+    </div>
+  </main>
+</body>
+
+</html>
